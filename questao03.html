@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 03</title>
+</head>
+<body>
+
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">IFSP</a></li>
+                <li><a href="#">Pessoal</a></li>
+                <li><a href="#">Ferramentas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+
+        // Entrada de dados
+        let nome = prompt("Digite o nome do aluno:");
+
+        let nota1 = parseFloat(prompt("Digite a nota 1:"));
+        let nota2 = parseFloat(prompt("Digite a nota 2:"));
+
+        // Cálculo da média
+        let media = (nota1 + nota2) / 2;
+
+        // Exibição do resultado
+        alert(
+            "Nome do aluno: " + nome +
+            "\nNota final: " + media
+        );
+
+    </script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
